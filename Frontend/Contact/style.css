@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    background-color: #00709F;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    background-color: #25282B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header img{
+    width: 150px;
+    margin-left: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2%;
+}
+
+.header a:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.mensage{
+    margin: 8% 10%;
+    text-align: center;
+    color: white;
+    font-size: 2vmax;
+    width: 30%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mensage img{
+    width: 30vw;
+}
+
+.form{
+    background-color: white;
+    width: 35%;
+    border-radius: 1vmax;
+    margin: 5%;
+    box-shadow: inset 0px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+.form h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.5vmax;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.form div label{
+    font-weight: bold;
+    font-size: 1vmax;
+    margin-left: 3%;
+}
+
+.form div input{
+    border: none;
+    background-color: rgb(218, 218, 218);
+    height: 5vh;
+    border-radius: 1vmax;
+    font-size: 1vmax;
+    outline: none;
+    padding: 0% 3%;
+}
+
+.form div textarea{
+    border: none;
+    background-color: rgb(218, 218, 218);
+    height: 15vh;
+    border-radius: 1vmax;
+    outline: none;
+    padding: 2% 3%;
+    font-size: 1vmax;
+}
+
+.form .button input{
+    width: 8vw;
+    height: 6vh;
+    background-color: rgb(1, 238, 108);
+    align-self: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 800ms;
+}
+
+.form .button input:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+

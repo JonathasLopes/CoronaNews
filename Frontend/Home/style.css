@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+#container{
+    display: flex;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    background-color: #25282B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header img{
+    width: 150px;
+    margin-left: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2%;
+}
+
+.header a:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#intro{
+    width: 500px;
+    align-items: center;
+    margin: 1% 10%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#intro p{
+    font-size: 1.5vmax;
+    margin-bottom: 5%;
+}
+.title h1{
+    text-align: center;
+    font-size: 3vmax;
+}
+
+footer{
+    color: red;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.2vmax;
+    color: #25282B;
+    text-align: center;
+    margin: 2%;
+}
+
+#news{
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+#news .impar{
+    display: flex;
+    background: #B1C7D3;
+    width: 50vw;
+    height: 16vmax;
+    margin-bottom: 2%;
+    border-radius: 1vmax;
+    box-sizing: content-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text,
+.text1,
+.text2{
+    text-align: left;
+    margin: 2% 4%;
+    font-size: 0.9vmax;
+}
+
+.text p,
+.text1 p,
+.text2 p{
+    margin-bottom: 2%;
+}
+
+#news .par{
+    display: flex;
+    background: #D5DFE1;
+    width: 50vw;
+    height: 16vmax;
+    margin-bottom: 2%;
+    box-sizing: content-box;
+    border-radius: 1vmax;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text{
+    margin-left: 0%;
+    margin-top: 4%
+}
+
+.text2{
+    margin-right: 0%;
+}
+
+.par img{
+    margin: 4%;
+    width: 20vw;
+    height: 12vmax;
+}
+
+#news .par iframe{
+    margin: 4% 4% 0%;
+    width: 20vw; 
+    height: 12vmax;
+}
