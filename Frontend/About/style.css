@@ -78,6 +78,11 @@ body{
     margin-bottom: 2%;
     margin-top: 2%;
     font-size: 1.8vmax;
+    color: #25282B;
+}
+
+.two .first{
+    margin-top: 5%;
 }
 
 .curriculo h2{
@@ -89,11 +94,12 @@ body{
     font-size: 1vmax;
     margin-left: 8%;
     font-weight: bold;
+    color: rgb(248, 230, 230);
 }
 
 .two a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #25282B;
 }
 
 .two .social{

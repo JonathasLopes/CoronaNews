@@ -84,6 +84,14 @@ body{
     font-size: 1vmax;
     outline: none;
     padding: 0% 3%;
+    transition: 400ms;
+}
+
+.form div textarea:hover,
+.form div input:hover{
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 .form div textarea{
@@ -94,6 +102,7 @@ body{
     outline: none;
     padding: 2% 3%;
     font-size: 1vmax;
+    transition: 400ms;
 }
 
 .form .button input{
